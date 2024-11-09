@@ -6,6 +6,14 @@
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
 	"features": {
 		"ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"trunk.io",
+				"svelte.svelte-vscode"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
